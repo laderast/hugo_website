@@ -3,6 +3,8 @@ title: "About"
 date: "2016-05-05T21:48:51-07:00"
 ---
 
+![Ted Laderas](/image/ted-headshot.jpg)
+
 I am an Assistant Professor in the Bioinformatics and Computational Biology track in the OHSU Department of
 Medical Informatics and Clinical Epidemiology ([BCB/DMICE](http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/educational-programs/dmice-programs/computational-biology.cfm)) and a member of the [OHSU Knight Cancer Institute](http://www.ohsu.edu/xd/health/services/cancer/). My research focus is on the Systems Biology of Complex Diseases. I use integrative modeling approaches across OMICs types to achieve this.
 
