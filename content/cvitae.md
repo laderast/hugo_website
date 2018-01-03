@@ -218,7 +218,7 @@ data from raw data to through the final stages of analysis.
 **RESEARCH POSTERS/ABSTRACTS**
 
 1.  *Getting your hands dirty with data*. **Ted Laderas**, Melissa
-    Hanedel, Bjorn Pederson, Jackie Wirz, William Hersh, David A. Dorr,
+    Haendel, Bjorn Pederson, Jackie Wirz, William Hersh, David A. Dorr,
     Shannon McWeeney. Big Data to Knowledge (BD2K) All Hands meeting,
     November 2016. [doi:10.6084/m9.figshare.4235594.v1](https://doi.org/10.6084/m9.figshare.4235594.v1)
 
