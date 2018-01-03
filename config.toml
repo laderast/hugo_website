@@ -2,7 +2,7 @@ baseurl = "/"
 languageCode = "en-us"
 title = "Personal Website for Ted Laderas, PhD"
 theme = "hugo-lithium-theme"
-googleAnalytics = ""
+googleAnalytics = "UA-111883274-1"
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
