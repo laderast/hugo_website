@@ -20,7 +20,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     weight = 3
 [[menu.main]]
     name = "CV"
-    url = "/cv/"
+    url = "/CV/"
     weight = 2 
 [[menu.main]]
     name = "GitHub"
