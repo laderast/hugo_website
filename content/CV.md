@@ -1,6 +1,6 @@
 ---
 title: Ted Laderas, PhD
----
+--- 
 
 *Assistant Professor*, 
 Division of Bioinformatics and Computational Biology, 
