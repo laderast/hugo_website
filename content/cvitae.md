@@ -528,9 +528,13 @@ for the Biocatalyst training program through Oregon Bioscience
 Association, which provides bioscience training for unemployed or
 under-employed professionals.
 
-**SERVICE ACCOMPLISHMENTS**
+**SERVICE ACCOMPLISHMENTS/APPOINTMENTS**
 
-Co-organizer for [Cascadia R Conference](https://cascadiarconf.com).
+Currently serving on DMICE Assessment Planning committee, DMICE BCB Division committee DMICE BMI Curriculum Committee.
+
+Co-Founder of [BioData Club](https://biodata-club.github.io) group for students, postdocs, and staff at OHSU. Managed speakers, developed free workshops for students, and provided feedback for student presentations. BioData Club is currently at 109 members ranging from OHSU and PSU staff, faculty, students and postdocs, providing a unique opportunity to share information and provide peer mentoring to students across the organizations.
+
+Co-organizer for [Cascadia R Conference](https://cascadiarconf.com) 2017 and 2018.
 
 Contributor to instructor lesson materials to [Software Carpentry](https://software-carpentry.org).
 
@@ -539,8 +543,6 @@ Editor at Large for [Radian Data](http://radiandata.org/).
 Participant/Instructor for [PDX Data Rescue/Open Data Day](https://github.com/daniellecrobinson/Data-Rescue-PDX).
 
 Documentation support for [Science Hack Day PDX 2017](http://portland.sciencehackday.org).
-
-Co-Founder of [BioData Club](https://biodata-club.github.io) group for students and postdocs. Managed speakers, developed free workshops for students, and provided feedback for student presentations. BioData Club is currently at 109 members ranging from OHSU and PSU staff, faculty, students and postdocs, providing a unique opportunity to share information and provide peer mentoring to students.
 
 Developed coursework for unemployed or underemployed IT workers in both biosciences and healthcare for Oregon Bioscience Association.
 
