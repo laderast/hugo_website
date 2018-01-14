@@ -11,6 +11,7 @@ weight = 5
 [interests]
   interests = [
     "Systems Biology of Complex Disease",
+    "Flow Cytometry Informatics",
     "Interactive Visualization",
     "Phenotypic Heterogeneity of Cancer and Measurement using Flow Cytometry Methods",
     "Integrating multi-OMICs data to understand dysregulation in cancer",
@@ -34,13 +35,9 @@ weight = 5
   year = 1998
 +++
 
-I am an Assistant Professor in the Bioinformatics and Computational Biology track in the OHSU Department of
-Medical Informatics and Clinical Epidemiology ([BCB/DMICE](http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/educational-programs/dmice-programs/computational-biology.cfm)) and a member of the [OHSU Knight Cancer Institute](http://www.ohsu.edu/xd/health/services/cancer/). My research focus is on the Systems Biology of Complex Diseases. I use integrative modeling approaches across OMICs types to achieve this.
+I am an Assistant Professor in the Division of Bioinformatics and Computational Biology in the Department of
+Medical Informatics and Clinical Epidemiology at OHSU ([BCB/DMICE](http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/educational-programs/dmice-programs/computational-biology.cfm)) and a member of the [OHSU Knight Cancer Institute](http://www.ohsu.edu/xd/health/services/cancer/). My research focus is on the Systems Biology of Complex Diseases. I use integrative modeling approaches across OMICs types to achieve this.
 
-Over fourteen years of bioinformatics experience, I have developed methods for low-level preprocessing and high-level analysis of many OMICs types, including expression (especially alternative splicing), phosphoproteomics, proteomics, and genomics. My experience in functional genomics has led me to use models such as Graphical Models and Networks to integrate these many OMICs types into building a unified picture of integrated systems-level dysregulation in complex diseases such as alcoholism and cancer.
+With over fourteen years of bioinformatics experience, I have developed methods for low-level preprocessing and high-level analysis of many OMICs types, including expression (especially alternative splicing), phosphoproteomics, proteomics, and genomics. My experience in functional genomics has led me to use models such as Graphical Models and Networks to integrate these many OMICs types into building a unified picture of integrated systems-level dysregulation in complex diseases such as alcoholism and cancer.
 
 I am also actively involved in teaching and utilizing interactive visualization, especially in the analysis of high-dimensional mass cytometry data.
-
-### **Other Interests**
-
-I have a parallel career as a composer and performing musician. I started taking cello lessons when I turned 30. I'm a lifelong learner and I love to play with and accompany other musicians. For more information, please see [my artist webpage](http://15people.net).

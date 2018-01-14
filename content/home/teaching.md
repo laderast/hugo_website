@@ -4,15 +4,15 @@ date: "2016-05-05T21:48:51-07:00"
 weight: 15
 ---
 
-## Current Academic Coursework at OHSU and PSU
+## Current Courses I teach at OHSU and PSU
 
 I teach in the summer hybrid [*BMI569/669 Data Analytics*](http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/current-students/student-resources/upload/BMI-569_669-Data-Analytics-Syllabus-SU16-2.pdf) course at OHSU (Hybrid course co-taught with Kaiser Permanente Data & Information Management Enhancement (DIME) group).
 
 I am also a co-instructor for [*BMI551/651 Bioinformatics and Computational Biology II: Statistical Methods*](http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/current-students/student-resources/upload/BMI-551-Syllabus-WI16.pdf), providing drop-in sessions for R programming and general tutoring.
 
-We are teaching an introductory bootcamp in python called [*NEU640 Python Bootcamp for Neuroscientists.*](https://github.com/dasaderi/python_neurobootcamp). This is a week-long course meant to introduce neuroscience students to the basics of python with data types familiar to them, including imaging and electrophysiology data. Taught with Stephen David, Brad Buran, Daniela Sadieri, Lucille Moore, Charlie Heller, Zack Schwartz. Winter Quarter, 2018.
+We are teaching an introductory bootcamp in Python called [*NEU640 Python Bootcamp for Neuroscientists.*](https://github.com/dasaderi/python_neurobootcamp). This is a week-long course meant to introduce neuroscience students to the basics of python with data types familiar to them, including imaging and electrophysiology data. Taught with Stephen David, Brad Buran, Daniela Sadieri, Lucille Moore, Charlie Heller, Zack Schwartz. Winter Quarter, 2018.
 
-I am course co-director for  *HSMP/PHE410 Introduction to Health Informatics.* at Portland State University. Spring Quarter, 2018.
+I am also course co-director for  *HSMP/PHE410 Introduction to Health Informatics.* at Portland State University. Spring Quarter, 2018.
 
 ## DataCamp
 
