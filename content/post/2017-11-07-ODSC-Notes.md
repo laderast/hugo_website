@@ -2,6 +2,7 @@
 date: '2017-11-07'
 title: Notes on Open Data Science Conference West 2017
 url: /2017/11/07/ODSC-Notes
+tags: [data-science ODSC]
 ---
 
 

@@ -2,6 +2,7 @@
 date: '2017-08-22'
 title: On the Separation of Code and State
 url: /2017/08/22/separation-of-code-and-state
+tags: [separating-code]
 ---
 
 

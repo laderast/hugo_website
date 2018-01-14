@@ -2,6 +2,7 @@
 date: '2017-06-28'
 title: How to Not Be Afraid of Your Data
 url: /2017/06/28/HowToNotBeAfraid
+tags: [shiny]
 ---
 
 I'm going to be giving a talk for the PDX RLang Meetup on July 11 called "[How to Not Be Afraid of Your Data: Teaching EDA using Shiny](https://www.meetup.com/portland-r-user-group/events/240846589/)". Abstract below.

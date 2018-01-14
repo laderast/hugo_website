@@ -2,6 +2,7 @@
 date: '2017-07-05'
 title: Interesting useR 2017 Talks
 url: /2017/07/05/interesting-user2017talks
+tags: [useR]
 ---
 
 

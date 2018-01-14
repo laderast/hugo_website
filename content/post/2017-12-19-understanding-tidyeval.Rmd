@@ -2,6 +2,7 @@
 date: '2017-12-19'
 title: Understanding Tidy Evaluation in R
 url: /2017/12/19/understanding-tidyeval
+tags: [rstats tidyeval]
 ---
 
 Have you ever had something that no matter how many times someone explained it, you really had no idea what it was for? For me, that was Non Standard Evaluation (NSE) in R, and its newer cousin Tidy Evaluation, or `tidyeval`. I had a real learning block about it. I really wanted to understand it, but for some reason I just really wasn't getting the general concepts.

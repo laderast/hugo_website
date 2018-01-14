@@ -1,10 +1,6 @@
 ---
 date: '2017-04-19'
-tags:
-- arts
-- music
-- plasticity
-- cross-discipline
+tags: [arts music plasticity cross-discipline]
 title: On Breadth and Depth in Your Academic Career
 url: /2017/04/19/Breadth-and-depth
 ---

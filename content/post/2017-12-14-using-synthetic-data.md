@@ -2,6 +2,7 @@
 date: '2017-12-14'
 title: Using Synthetic Data for Teaching Data Science
 url: /2017/12/14/using-synthetic-data
+tags: [synthetic-data data-science]
 ---
 
 

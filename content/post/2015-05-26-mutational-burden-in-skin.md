@@ -2,6 +2,7 @@
 date: '2015-05-26'
 title: Somatic Mutations in Skin Paper
 url: /2015/05/26/mutational-burden-in-skin
+tags: [somatic mutations]
 ---
 
 

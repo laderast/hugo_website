@@ -5,6 +5,15 @@ date: 2018-01-12T13:55:55-08:00
 
 A list of python resources at OHSU and beyond for the neuroscience students.
 
+## In Neuroscience
+
+### Python Bootcamp for Neuroscientists (NEUS640)
+
+[Course Material](https://github.com/dasaderi/python_neurobootcamp)
+
+This course is a gentle introduction to the Python
+programming language using data types familiar to Neuroscience students, including behavioral, electrophysiology, and imaging data. Emphasis will be put on introducing students to concepts of visualization, data manipulation, and analysis using available Python packages (NumPy, Pandas, Matplotlib).
+
 ## In Medical Informatics and Clinical Epidemiology (DMICE)
 
 ### Introduction to Programming (no course number)

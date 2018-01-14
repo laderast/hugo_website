@@ -2,6 +2,7 @@
 date: '2015-05-24'
 title: High Impact Factor Journals Have Higher Retraction Rates
 url: /2015/05/24/The-Rise-Of-Fraud-in-High-IF-journals
+tags: [journal retraction]
 ---
 
 

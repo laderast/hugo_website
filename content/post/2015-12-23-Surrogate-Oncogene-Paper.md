@@ -2,6 +2,7 @@
 date: '2015-12-23'
 title: Surrogate Oncogene Paper is Published
 url: /2015/12/23/Surrogate-Oncogene-Paper
+tags: [publication]
 ---
 
 My dissertation paper, [A Network-Based Model of Oncogenic Collaboration for Prediction of Drug Sensitivity](http://journal.frontiersin.org/article/10.3389/fgene.2015.00341/abstract) is now published! Here's a lay summary:

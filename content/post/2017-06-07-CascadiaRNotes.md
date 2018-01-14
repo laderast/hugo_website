@@ -2,6 +2,7 @@
 date: '2017-06-07'
 title: Some Lessons We Learned Running Cascadia-R
 url: /2017/06/07/CascadiaRNotes
+tags: [rstats cascadia-R]
 ---
 
 

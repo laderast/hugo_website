@@ -1,9 +1,6 @@
 ---
 date: '2017-04-17'
-tags:
-- peer-mentoring
-- community
-- university
+tags: [peer-mentoring community university]
 title: Fostering a Peer Mentoring Culture
 url: /2017/04/17/Building-A-Peer-Mentoring
 ---

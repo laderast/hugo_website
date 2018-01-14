@@ -2,6 +2,7 @@
 date: '2015-11-24'
 title: Why Short-Order Bioinformatics Doesn't Work
 url: /2015/11/24/short-order-bioinformatics
+tags: [bioinformatics]
 ---
 
 

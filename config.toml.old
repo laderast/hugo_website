@@ -1,0 +1,114 @@
+title = "Personal Website for Ted Laderas, PhD"
+googleAnalytics = "UA-111883274-1"
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+baseurl = "/"
+theme = "hugo-lithium-theme"
+languageCode = "en-us"
+# Site language. Available translations in the theme's `/i18n` directory.
+defaultContentLanguage = "en"
+# Enable comments by entering your Disqus shortname
+
+# Define the number of posts per page
+paginate = 10
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+[menu]
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 1
+[[menu.main]]
+    name = "Teaching"
+    url = "/teaching/"
+    weight = 3
+[[menu.main]]
+    name = "CV"
+    url = "/cvitae/"
+    weight = 2 
+[[menu.main]]
+    name = "GitHub"
+    url = "http://github.com/laderast"
+    weight = 4
+[[menu.main]]
+    name = "Twitter"
+    url = "https://twitter.com/tladeras"
+    weight = 5 
+
+[params]
+    description = "Personal Website of Ted Laderas, PhD."
+
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.11.0"
+    highlightjsCDN = "//cdn.bootcss.com"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
+
+    MathJaxCDN = "//cdn.bootcss.com"
+    MathJaxVersion = "2.7.1"
+
+    [params.logo]
+    url = "logo.png"
+    width = 50
+    height = 50
+    alt = "Logo"
+
+# Enable or disable top bar with social icons
+[params.topbar]
+    enable = false
+    text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
+      <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
+      <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
+      </p>
+      """
+
+# Enable and disable widgets for the right sidebar
+[params.widgets]
+    categories = true
+    tags = true
+    search = true
+
+[params.carousel]
+    enable = false
+    # All carousel items are defined in their own files. You can find example items
+    # at 'exampleSite/data/carousel'.
+    # For more informtion take a look at the README.
+
+[params.features]
+    enable = false
+    # All features are defined in their own files. You can find example items
+    # at 'exampleSite/data/features'.
+    # For more informtion take a look at the README.
+
+[params.testimonials]
+    enable = false
+    # All testimonials are defined in their own files. You can find example items
+    # at 'exampleSite/data/testimonials'.
+    # For more informtion take a look at the README.
+    title = "Testimonials"
+    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
+
+[params.see_more]
+    enable = false
+    icon = "fa fa-file-code-o"
+    title = "Do you want to see more?"
+    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
+    link_url = "#"
+    link_text = "Check other homepages"
+
+[params.clients]
+    enable = false
+    # All clients are defined in their own files. You can find example items
+    # at 'exampleSite/data/clients'.
+    # For more informtion take a look at the README.
+    title = "Our Clients"
+    subtitle = ""
+
+[params.recent_posts]
+    enable = true
+    title = "From our blog"
+    subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
