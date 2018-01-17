@@ -1,7 +1,7 @@
 ---
-title: What I learned teaching Python to Neuroscience Students
+title: What We learned teaching Python to Neuroscience Students
 author: ~
-date: '2018-01-13'
+date: '2018-01-17'
 slug: what-i-learned-teaching-python-to-neuroscience-students
 categories: []
 tags: [python, teaching, beginners]
@@ -26,10 +26,10 @@ The format of the class was spread over 5 days (2.5 hours a day) and had the fol
 
 5. Evaluation of students; installing Python/Juypter; wrap-up with questions.
 
-I'll just write up some random thoughts about our experiences about the course.
+I'll just write up some random thoughts about our experiences about the course. We are definitely planning to give the course again next year, given the enthusiastic reception.
 
 ### Things that really worked well
-
+ 
 *Avoid the first day blues of installing Python by using [JupyterHub](https://github.com/jupyterhub/jupyterhub)*. I think one of the major pain points for beginners is installing software before they can even learn. Instead of making them install Python the first day, we had them sign into an AWS server that had JuypterHub deployed. [JupyterHub is a multi-user server for Juypter Notebooks](https://github.com/jupyterhub/jupyterhub) which had the right version of Python and our need the dependencies installed. So our students just needed a laptop and a web browser to access our lessons. We could update the notebooks by pulling changes from our course repo.
 
 Stephen David, my fellow instructor, figured a lot of the difficult deployment details out. He has put together some [handy instructions about deploying JuypterHub to AWS](https://github.com/dasaderi/python_neurobootcamp/blob/master/server_setup/hubInstall.md) and keeping the accounts updated via a GitHub repo in case other people are interested in using our bootcamp materials.
