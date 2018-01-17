@@ -6,8 +6,8 @@ slug: what-i-learned-teaching-python-to-neuroscience-students
 categories: []
 tags: [python, teaching, beginners]
 header:
-  caption: ''
-  image: ''
+  caption: 'python-class'
+  image: 'img/py_class.jpg'
 ---
 
 Well, the week of teaching our [Python Bootcamp for Neuroscientists](https://github.com/dasaderi/python_neurobootcamp) is over. I had the pleasure of working with a great group of students, professors and instructors in developing the material, and had a great time teaching complete beginners to programming and Python.
