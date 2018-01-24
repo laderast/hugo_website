@@ -24,8 +24,8 @@ I reserve the right to refuse interviews from people who do not read this.
 
 4) *Don't ask for a job, ask for connections*. I know a decent number of people around Oregon and OHSU, so if you want me to introduce you to one of my connections, I'm happy to. If I know someone, I'm happy to do this, since it's usually a five-minute ask.
 
-5) *Follow up, and be willing to return the favor*. Even a nice thank-you email is good. I'm happy to make you a Linkedin connection, if it means I can help someone else further down the line. If I expend energy on you, I'd like to see it's impact. If my efforts meant that you managed to find a job, please let me know! 
+5) *Follow up, and be willing to return the favor*. Even a nice thank-you email is good. I'm happy to make you a Linkedin connection, if it means I can help someone else further down the line. If I expend energy on you, I'd like to see my impact. If my efforts meant that you managed to find a job, please let me know! 
 
 6) *Read [Give and Take](http://www.adamgrant.net)*. This book by Adam Grant really struck me as the way to actually network. In short, I learned that if I want a return on my energy expenditure, I have to spend my energy on Givers, or people who help others. I am a Giver, but I now tend only to give informational interviewers to other Givers. The rest are too draining for me. 
 
-I have given so many of these interviews and have gotten nothing from them. Not even a follow-up, which really is bad practice. So, if I'm considered difficult to approach about these, know it is because your previous askers have really been an energy drain and have been inconsiderate Takers. Make it interesting for me. I'm much more likely to help you.
+I have given so many of these interviews and have gotten nothing from them. Not even a follow-up, which really is bad practice. So, if I'm considered difficult to approach about these, know it is because your previous askers have really been an energy drain and have been inconsiderate Takers. Make it interesting for me and be considerate. I'm much more likely to help you.
