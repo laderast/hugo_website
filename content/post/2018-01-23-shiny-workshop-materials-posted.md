@@ -6,8 +6,8 @@ slug: gradual-introduction-to-shiny
 categories: [visualization,R]
 tags: [visualization, interactive visualization, rstats, R, shiny]
 header:
-  caption: ''
-  image: ''
+  caption: '*basic architecture of a Shiny app*'
+  image: 'shiny-architecture.png'
 ---
 
 I just gave a workshop teaching the basics of [Shiny](https://shiny.rstudio.com) (the interactive web visualization framework) for a group of PDX R users. We had 10 people attend, and most of the attendees managed to get through the material and had lots of good questions. I really enjoyed talking with everyone and I hope everyone learned something. We're planning to give the workshop again to the larger PDX R user community, and some of the attendees last night have volunteered to be TAs. 
