@@ -1,6 +1,6 @@
 [submodule "public"]
 	path = public
-	url = git@github.com:laderast/laderast.github.io.git
+	url = https://github.com/laderast/laderast.github.io
 	branch = master
 [submodule "themes/minimo"]
 	path = themes/minimo

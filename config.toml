@@ -8,6 +8,8 @@ baseurl = "/"
 # Title of your site
 title = "Ted Laderas, PhD"
 
+publishDir = "public"
+
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
 copyright = "&copy; 2018"
