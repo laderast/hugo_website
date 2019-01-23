@@ -8,7 +8,7 @@ title = "Shiny Apps"
 subtitle = "I love using the [shiny](http://shiny.rstudio.com) app framework for both data exploration in research and teaching. Click any of these links to go to the app."
 
 # Order that this section will appear in.
-weight = 20
+weight = 19
 
 # Content.
 # Display content from the following folder.
