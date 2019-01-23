@@ -1,6 +1,6 @@
 +++
 # Date this page was created.
-date = "2019-01-22"
+date = "2018-05-22"
 
 # Project title.
 title = "Introduction to Data Literacy"

@@ -1,6 +1,6 @@
 +++
 # Date this page was created.
-date = "2019-01-22"
+date = "2017-06-22"
 
 # Project title.
 title = "Introduction to Categorical Data Analysis"
