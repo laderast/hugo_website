@@ -19,7 +19,7 @@ title: Integrated functional and mass spectrometry-based flow cytometric phenoty
   to describe the immune microenvironment in acute myeloid leukemia
 url_code: 'https://github.com/laderast/flowDashboard'
 #url_dataset: '#'
-url_pdf: ''
+#url_pdf: ''
 #url_poster: '#'
 #url_project: '#'
 #url_slides: '#'
