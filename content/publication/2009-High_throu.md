@@ -20,7 +20,7 @@ title: 'High throughput sequencing in mice: a platform comparison identifies a p
   of cryptic SNPs'
 #url_code: ''
 #url_dataset: '#'
-url_pdf: ''
+#url_pdf: ''
 #url_poster: '#'
 #url_project: '#'
 #url_slides: '#'

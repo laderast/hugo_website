@@ -17,14 +17,14 @@ publication_types: ['2']
 selected: yes
 title: Teaching data science fundamentals through realistic synthetic clinical cardiovascular
   data
-url_code: ''
-url_dataset: '#'
-url_pdf: ''
+url_code: 'http://github.com/laderast/cvdNight1'
+url_dataset: 'http://github.com/laderast/cvdRiskData'
+#url_pdf: ''
 url_preprint: "https://www.biorxiv.org/content/early/2017/12/12/232611"
-url_poster: '#'
-url_project: '#'
-url_slides: '#'
-url_source: '#'
-url_video: '#'
+#url_poster: '#'
+#url_project: '#'
+#url_slides: '#'
+#url_source: '#'
+#url_video: '#'
 
 ---

@@ -17,13 +17,13 @@ publication_short: Blood
 publication_types: ['2']
 selected: yes
 title: Enhanced VISTA expression in a subset of patients with acute myeloid leukemia
-url_code: ''
-url_dataset: '#'
-url_pdf: ''
-url_poster: '#'
-url_project: '#'
-url_slides: '#'
-url_source: '#'
-url_video: '#'
+#url_code: ''
+#url_dataset: '#'
+#url_pdf: ''
+#url_poster: '#'
+#url_project: '#'
+#url_slides: '#'
+#url_source: '#'
+#url_video: '#'
 
 ---

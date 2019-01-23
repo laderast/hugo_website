@@ -15,13 +15,13 @@ publication_short: Langmuir
 publication_types: ['2']
 selected: no
 title: Persistence of metastability after expansion of a supercompressed fluid monolayer
-url_code: ''
-url_dataset: '#'
-url_pdf: ''
-url_poster: '#'
-url_project: '#'
-url_slides: '#'
-url_source: '#'
-url_video: '#'
+#url_code: ''
+#url_dataset: '#'
+#url_pdf: ''
+#url_poster: '#'
+#url_project: '#'
+#url_slides: '#'
+#url_source: '#'
+#url_video: '#'
 
 ---

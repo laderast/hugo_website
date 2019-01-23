@@ -19,7 +19,7 @@ title: 'Tales From The Cryptic Snp: High Throughput Sequencing Of Dba/2j And C57
   Mouse Chromosome 1 Reveals An Abundance Of Polymorphisms: 268'
 #url_code: ''
 #url_dataset: '#'
-url_pdf: ''
+#url_pdf: ''
 #url_poster: '#'
 #url_project: '#'
 #url_slides: '#'

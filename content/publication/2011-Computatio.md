@@ -18,12 +18,12 @@ publication_types: ['2']
 selected: yes
 title: Computational detection of alternative exon usage
 url_code: 'https://github.com/laderast/ExonModelStrain'
-url_dataset: '#'
+#url_dataset: '#'
 url_pdf: 'http://dx.doi.org/10.3184/003685015X14368898634462'
-url_poster: '#'
-url_project: '#'
-url_slides: '#'
-url_source: '#'
-url_video: '#'
+#url_poster: '#'
+#url_project: '#'
+#url_slides: '#'
+#url_source: '#'
+#url_video: '#'
 
 ---
