@@ -217,36 +217,42 @@ data from raw data to through the final stages of analysis.
 
 **RESEARCH POSTERS/ABSTRACTS**
 
-1.  *Getting your hands dirty with data*. **Ted Laderas**, Melissa
+1. [Democratizing Data Science using LearnR and Shiny](http://bit.ly/equal_vis). **Ted Laderas** and Jessica Minnier. RStudio Conference, January 2019.
+
+2. [flowDashboard: An interactive dashboard for comparative flow analysis](https://f1000research.com/posters/7-1045). **Ted Laderas**, Gwendolyn Swarbrick, Deborah Lewinsohn, David Lewinsohn, Evan Lind, BOSC (Bioinformatics Open Source Conference), July 2018. 
+
+3. [Mixing Active Learning and Lecturing: Using Interactive Visualization as a Teaching Tool](https://www.causeweb.org/cause/ecots/ecots18/posters/3-03). ECOTS (Electronic Conference on Teaching Statistics) e-poster session, June 2018.
+
+4.  *Getting your hands dirty with data*. **Ted Laderas**, Melissa
     Haendel, Bjorn Pederson, Jackie Wirz, William Hersh, David A. Dorr,
     Shannon McWeeney. Big Data to Knowledge (BD2K) All Hands meeting,
     November 2016. [doi:10.6084/m9.figshare.4235594.v1](https://doi.org/10.6084/m9.figshare.4235594.v1)
 
-2.  *Get Real: A synthetic dataset illustrating clinical and
+5.  *Get Real: A synthetic dataset illustrating clinical and
     genetic covariates.* **Ted Laderas**, Nicole Vasilevsky, Melissa
     Haendel, Shannon McWeeney and David A. Dorr. BD2K All Hands meeting,
     November 2016. [doi:10.6084/m9.figshare.4239959.v1](https://doi.org/10.6084/m9.figshare.4239959.v1)
 
-3.  *Mass Cytometry as a Modality to Identify Candidates for Immune
+6.  *Mass Cytometry as a Modality to Identify Candidates for Immune
     Checkpoint Inhibitor Therapy within Acute Myeloid Leukemia.* Adam
     Lamble, Fei Huang, Kate Sasser, Homer Adams III, Cristina E. Tognon,
     **Ted Laderas**, Shannon McWeeney, Marc Loriaux, Jeffery W. Tyner,
     Brian J. Druker, and Evan F. Lind. American Society for Hematology,
     December 2016.
 
-4.  *Enhanced VISTA Expression in a Subset of Patients with Acute
+7.  *Enhanced VISTA Expression in a Subset of Patients with Acute
     Myeloid Leukemia*. Adam Lamble, Yoko Kosaka, Fei Huang, Kate Sasser,
     Homer Adams III, Cristina E. Tognon, **Ted Laderas**, Shannon
     McWeeney, Marc Loriaux, Jeffery W. Tyner, Brian J. Druker, and
     Evan F. Lind. American Society for Hematology, December 2016.
 
-5.  *Improving Knowledge Discovery Through Development of Big Data to
+8.  *Improving Knowledge Discovery Through Development of Big Data to
     Knowledge Skills Courses and Open Educational Resources*. Nicole
     Vasilevsky, Shannon McWeeney, William Hersh, David A. Dorr, **Ted
     Laderas**, Jackie Wirz, Bjorn Pederson and Melissa Haendel. Poster for
     BICC Building 25th Anniversary.
 
-6.  *Consensus molecular subtyping through a community of experts
+9.  *Consensus molecular subtyping through a community of experts
     advances unsupervised gene expression-based disease classification
     and facilitates clinical translation.* Justin Guinney, Rodrigo
     Dienstmann, Xin Wang, Aurelien de Reynies, Andreas Schlicker,
@@ -261,52 +267,52 @@ data from raw data to through the final stages of analysis.
     Sabine Tejpar. American Association for Cancer Research Conference,
     August 2015.
 
-7.  *A Network-Based Model of Oncogenic Collaboration for Prediction of
+10.  *A Network-Based Model of Oncogenic Collaboration for Prediction of
     Drug Sensitivity.* **Ted Laderas**. RECOMB/ISCB Conference on
     Regulatory and Systems Genomics, November 2014.
 
-8.  [*Integrating proteomics and genomic data to illuminate the effects
+11.  [*Integrating proteomics and genomic data to illuminate the effects
     of Lapatinib in HER2+
     Cells*](https://www.dropbox.com/s/y3rbkygjn41qsd6/poster-laderas-nlm-2013.pdf?dl=0).
     **Ted Laderas** and Kemal Sonmez. National Library of Medicine
     Training Conference, Utah, 2013. [doi:10.6084/m9.figshare.4829749.v1](https://doi.org/10.6084/m9.figshare.4829749.v1)
 
-9.  [*Integrating to Interact: Using Reconstructability Analysis to
+12.  [*Integrating to Interact: Using Reconstructability Analysis to
     Integrate Genomic and Proteomic Data to Predict Drug
     Sensitivity*](https://www.dropbox.com/s/nhixsztlg1oo4z6/poster-laderas-ismb-2012.pdf?dl=0).
     **Ted Laderas** and Kemal Sonmez. Intelligent Systems in Molecular
     Biology conference, 2012. [doi:10.6084/m9.figshare.4830007.v1](https://doi.org/10.6084/m9.figshare.4830007.v1)
 
-10. *Tales from the Cryptic Snp: High Throughput Sequencing of DBA/2J
+13. *Tales from the Cryptic Snp: High Throughput Sequencing of DBA/2J
     and C57BL/6J mouse chromosome 1 reveals an abundance
     of polymorphisms.* Kari J. Buck, Nicole A.R. Walter, Daniel
     Bottomly, **Ted Laderas**, Michael Mooney, Priscila Darakjian,
     Shannon McWeeney, Robert Hitzemann. Research Society on Alcoholism
     Annual Meeting. 2009.
 
-11. *A computational framework for the detection of alternative exon
+14. *A computational framework for the detection of alternative exon
     usage using Affymetrix Exon arrays.* **Ted Laderas**, Michael
     Mooney, Nikki Walter, Kristina Vartanian, Christina Harrington,
     Priscila Darakijan, John Belknap, Robert Hitzemann, and
     Shannon McWeeney. Intelligent Systems in Molecular Biology
     conference, Toronto, July 2008.
 
-12. *Cerebrospinal fluid (CSF) proteomics in children with acute
+15. *Cerebrospinal fluid (CSF) proteomics in children with acute
     lymphoblastic leukemia (ALL).* Robert C Trueworthy, Linda C Stork,
     Yanping Zhong, Sharon Pine, Yousif Matloub, **Ted Laderas**, Shannon
     McWeeney, and Guang Fan. Poster 2006.
 
-13. *A metrics-based low-level preprocessing framework for
+16. *A metrics-based low-level preprocessing framework for
     proteomics data.* **Ted Laderas**, Solange Mongoue-Tchokote, Veena
     Rajaraman, Kimberly Sellers, Cory Bystrom and Shannon McWeeney.
     Bioconductor Developer's Meeting, Seattle, Washington, August 2006.
 
-14. *A diagnostic test suite for the RProteomics statistical routines.*
+17. *A diagnostic test suite for the RProteomics statistical routines.*
     **Ted Laderas**, Solange Mongoue-Tchokote, Veena Rajaraman, Kimberly
     Sellers and Shannon McWeeney. caBIG annual meeting, Washington DC,
     April 2006.
 
-15. *Consense-Cluster: a framework for comparing and benchmarking
+18. *Consense-Cluster: a framework for comparing and benchmarking
     clustering algorithms.* **Ted Laderas** and Shannon McWeeney.
     Bioconductor Developer's Meeting, Seattle, Washington, August 2005.
 
