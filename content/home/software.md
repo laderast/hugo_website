@@ -10,6 +10,7 @@ title: Software
 weight: 25
 ---
 
++ [burro](http://github.com/laderast/burro). R Package for building data exploration apps for Data Scavenger hunts. With Jessica Minnier and Gabrielle Choonoo.
 + [flowDashboard](https://github.com/laderast/flowDashboard). Shiny modules for building interactive and comparative dashboards for flow cytometry data. See a demo here: [https://tladeras.shinyapps.io/sampleFlowDashboard/](https://tladeras.shinyapps.io/sampleFlowDashboard/) [![DOI](https://zenodo.org/badge/72794399.svg)](https://zenodo.org/badge/latestdoi/72794399)
 + [DSIExplore](https://github.com/laderast/DSIExplore). Interactive [learnr](https://rstudio.github.io/learnr/) package for teaching beginning exploratory data analysis and statistics. Jessica Minnier and **Ted Laderas**. Role: author.
 + [infer](http://infer.netlify.com). Tidy statistical inference package. Andrew Bray, Chester Ismay, Ben Baumer, Mine Cetinkaya-Rundel, **Ted Laderas** and Nick Solomon. Role: Contributor.

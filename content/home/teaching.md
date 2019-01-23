@@ -10,22 +10,21 @@ I teach in the summer hybrid [*BMI569/669 Data Analytics*](http://www.ohsu.edu/x
 
 I am also a co-instructor for [*BMI551/651 Bioinformatics and Computational Biology II: Statistical Methods*](http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/current-students/student-resources/upload/BMI-551-Syllabus-WI16.pdf), providing drop-in sessions for R programming and general tutoring.
 
-We are teaching an introductory bootcamp in Python called [*NEU640 Python Bootcamp for Neuroscientists.*](https://github.com/dasaderi/python_neurobootcamp). This is a week-long course meant to introduce neuroscience students to the basics of python with data types familiar to them, including imaging and electrophysiology data. Taught with Stephen David, Brad Buran, Daniela Sadieri, Lucille Moore, Charlie Heller, Zack Schwartz. Winter Quarter, 2018.
-
-I am also course co-director for  *HSMP/PHE410 Introduction to Health Informatics.* at Portland State University. Spring Quarter, 2018.
+I am also course co-director for  [HSMP/PHE410 Introduction to Health Informatics](https://laderast.github.io/HSMP410/). at Portland State University. Spring Quarter, 2018.
 
 ## DataCamp
 
 I have a [free online introductory course at DataCamp called the RBootcamp](https://www.datacamp.com/courses/rbootcamp). In this course, we cover the basics of visualization, data munging, and basic statistics using the [tidyverse in R](http://tidyverse.org). It is freely available to everyone, but registration is required.
 
-I am currently developing a course called *Statistical Analysis of Networks in R* for DataCamp. More info as it develops.
 
 ## Training Materials/Workshops
 
 I have developed a number of self-directed training materials for learning R and specific packages that I've found useful. Most of these are available from my github page and may be used freely by students.
 
++ [Clinical Data Wrangling Workshop](https://laderast.github.io/clinical_data_wrangling) - [![DOI](https://zenodo.org/badge/151426188.svg)](https://zenodo.org/badge/latestdoi/151426188)
 + [R-Bootcamp (tidyverse)](https://www.datacamp.com/courses/rbootcamp) - The new version of RBootcamp, that covers the `tidyverse` for manipulating data in R. You will need to register on [DataCamp](http://datacamp.com). This interactive course was written with both Jessica Minnier and Chester Ismay. [![DOI](https://zenodo.org/badge/88869265.svg)](https://zenodo.org/badge/latestdoi/88869265)
 + [R-Bootcamp (Base R)](https://www.coursesites.com/s/_Rbootcamp) - an MOOC (Massively Open Online Course) for teaching the basics of data manipulation in R (Coursesites registration required). Note that I do not support this course anymore at this point. 
++ We taught an introductory bootcamp in Python called [*NEU640 Python Bootcamp for Neuroscientists.*](https://github.com/dasaderi/python_neurobootcamp). This is a week-long course meant to introduce neuroscience students to the basics of python with data types familiar to them, including imaging and electrophysiology data. Taught with Stephen David, Brad Buran, Daniela Sadieri, Lucille Moore, Charlie Heller, Zack Schwartz. Winter Quarter, 2018.
 
 ### **Standalone Tutorials**
 

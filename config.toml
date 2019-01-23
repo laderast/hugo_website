@@ -150,7 +150,7 @@ defaultContentLanguageInSubdir = false
   #   For more info on the highlighting options, see:
   #   https://sourcethemes.com/academic/post/writing-markdown-latex/#highlighting-options
   highlight = true
-  highlight_languages = []
+  highlight_languages = ["R"]
   # highlight_style = "github"
 
   # Enable native social sharing buttons?
@@ -275,7 +275,7 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "Publications"
-  url = "#publications_selected"
+  url = "#publications"
   weight = 4
 
 [[menu.main]]
@@ -288,10 +288,10 @@ defaultContentLanguageInSubdir = false
     url = "/cvitae/"
     weight = 6
 
-#[[menu.main]]
-#  name = "Projects"
-#  url = "#projects"
-#  weight = 4
+[[menu.main]]
+  name = "Shiny"
+  url = "#projects"
+  weight = 4
 
 [[menu.main]]
   name = "Contact"
