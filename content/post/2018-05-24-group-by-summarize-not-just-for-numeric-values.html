@@ -1,0 +1,76 @@
+---
+title: 'group_by/summarize: Not just for numeric values!'
+author: ~
+date: '2018-05-24'
+slug: group-by-summarize-not-just-for-numeric-values
+categories: []
+tags: []
+header:
+  caption: ''
+  image: ''
+---
+
+
+
+<p>Even though I’ve been using the <code>tidyverse</code> for a couple of years, there’s always a couple new applications of <code>tidyverse</code> verbs.</p>
+<p>This one, in retrospect, is pretty simple. I had a one to many table that I wanted to collapse, tidy-style. Let’s look at the <code>diamonds</code> dataset:</p>
+<pre class="r"><code>diamonds %&gt;% select(color, cut)</code></pre>
+<pre><code>## # A tibble: 53,940 x 2
+##    color cut      
+##    &lt;ord&gt; &lt;ord&gt;    
+##  1 E     Ideal    
+##  2 E     Premium  
+##  3 E     Good     
+##  4 I     Premium  
+##  5 J     Good     
+##  6 J     Very Good
+##  7 I     Very Good
+##  8 H     Very Good
+##  9 E     Fair     
+## 10 H     Very Good
+## # ... with 53,930 more rows</code></pre>
+<p>What if we wanted to collapse all the entries for each color into a single line? There’s 7 different colors, so we can use a combination of <code>group_by</code> on <code>color</code> and use the <code>paste()</code> function within <code>summarize()</code> to get what we want, which I’ve called <code>all_colors</code> here. By specifying the <code>collapse</code> argument, we can specify the delimiter within that column:</p>
+<pre class="r"><code>diamonds %&gt;% select(color, cut) %&gt;% 
+  group_by(color) %&gt;% 
+  summarize(all_colors=
+              paste(cut, collapse=&quot;;&quot;))</code></pre>
+<pre><code>## # A tibble: 7 x 2
+##   color all_colors                                                        
+##   &lt;ord&gt; &lt;chr&gt;                                                             
+## 1 D     Very Good;Very Good;Very Good;Good;Good;Premium;Premium;Ideal;Ide…
+## 2 E     Ideal;Premium;Good;Fair;Premium;Premium;Very Good;Very Good;Very …
+## 3 F     Premium;Very Good;Very Good;Very Good;Good;Premium;Very Good;Very…
+## 4 G     Very Good;Ideal;Ideal;Very Good;Premium;Premium;Ideal;Very Good;I…
+## 5 H     Very Good;Very Good;Very Good;Good;Good;Very Good;Good;Very Good;…
+## 6 I     Premium;Very Good;Ideal;Good;Premium;Ideal;Ideal;Ideal;Ideal;Very…
+## 7 J     Good;Very Good;Good;Ideal;Ideal;Good;Good;Very Good;Very Good;Ver…</code></pre>
+<p>Thanks to Ken Butler, who pointed out that the <code>tidyverse</code> way (via <code>stringr</code>) is to use <code>str_c</code> instead:</p>
+<pre class="r"><code>diamonds %&gt;% select(color, cut) %&gt;% 
+  group_by(color) %&gt;% 
+  summarize(all_colors=
+              stringr::str_c(cut, collapse=&quot;;&quot;))</code></pre>
+<pre><code>## # A tibble: 7 x 2
+##   color all_colors                                                        
+##   &lt;ord&gt; &lt;chr&gt;                                                             
+## 1 D     Very Good;Very Good;Very Good;Good;Good;Premium;Premium;Ideal;Ide…
+## 2 E     Ideal;Premium;Good;Fair;Premium;Premium;Very Good;Very Good;Very …
+## 3 F     Premium;Very Good;Very Good;Very Good;Good;Premium;Very Good;Very…
+## 4 G     Very Good;Ideal;Ideal;Very Good;Premium;Premium;Ideal;Very Good;I…
+## 5 H     Very Good;Very Good;Very Good;Good;Good;Very Good;Good;Very Good;…
+## 6 I     Premium;Very Good;Ideal;Good;Premium;Ideal;Ideal;Ideal;Ideal;Very…
+## 7 J     Good;Very Good;Good;Ideal;Ideal;Good;Good;Very Good;Very Good;Ver…</code></pre>
+<p>Finally, if we wanted to just get the unique values of the cuts in a single line, we can use <code>unique</code>:</p>
+<pre class="r"><code>diamonds %&gt;% select(color, cut) %&gt;% 
+  group_by(color) %&gt;% 
+  summarize(all_colors=
+              paste(unique(cut), collapse=&quot;;&quot;))</code></pre>
+<pre><code>## # A tibble: 7 x 2
+##   color all_colors                       
+##   &lt;ord&gt; &lt;chr&gt;                            
+## 1 D     Very Good;Good;Premium;Ideal;Fair
+## 2 E     Ideal;Premium;Good;Fair;Very Good
+## 3 F     Premium;Very Good;Good;Fair;Ideal
+## 4 G     Very Good;Ideal;Premium;Good;Fair
+## 5 H     Very Good;Good;Premium;Fair;Ideal
+## 6 I     Premium;Very Good;Ideal;Good;Fair
+## 7 J     Good;Very Good;Ideal;Premium;Fair</code></pre>

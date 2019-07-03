@@ -1,0 +1,49 @@
+---
+title: Shiny and Tidyeval Part 1
+author: ~
+date: '2018-08-07'
+slug: shiny-and-tidyeval
+categories: [shiny]
+tags: [shiny, tidyeval, inputs, apps, this]
+header:
+  caption: ''
+  image: ''
+---
+
+
+
+<blockquote>
+<p>Note: sometimes I write these posts to teach myself a better way to do things in R.</p>
+</blockquote>
+<p>I have been avoiding <code>tidyeval</code> somewhat, because I seem to have a bit of a learning block about it. I’m going to try to write some posts that help me understand what’s going on with Tidy Evaluation.</p>
+<div id="using-sym-in-a-shiny-app" class="section level2">
+<h2>Using <code>sym()</code> in a Shiny App</h2>
+<p>One fairly simple Shiny Application might be selecting a column of the dataset and then doing something with it, such as using it in a <code>select()</code> or <code>filter()</code> statement. Say we had a simple app to produce histograms, and we wanted to change the column that is being displayed on the histogram.</p>
+<p>Try this app out by running the following command. The <a href="https://gist.github.com/laderast/a5205554324306e642b2df9f80ed6409">code is here</a>.</p>
+<pre class="r"><code>runGist(&quot;https://gist.github.com/laderast/a5205554324306e642b2df9f80ed6409&quot;, display.mode=&quot;showcase&quot;)</code></pre>
+<p>Our input is a select input called <code>numeric_var</code>, which returns a single column name as a <code>character</code> In our server logic, we’ve built a reactive called <code>selected_data</code>, which returns the selected column as a vector using <code>pull()</code>.</p>
+<pre class="r"><code>  selected_data &lt;- reactive({
+    ## input$numeric_var is a character, so we cast it to symbol
+    var_name &lt;- sym(input$numeric_var)
+
+    ## Now we evaluate it with !!
+    out_col &lt;- iris %&gt;% pull(!!var_name)
+  })</code></pre>
+<p>The question is: how do we pass the input value into <code>pull()</code>? We first have to use <code>rlang::sym()</code> to pass our character in as a <code>symbol</code> that we’re calling <code>var_name</code>. But the issue is that our reactive doesn’t know which environment to look in.</p>
+<p>We want our reactive to look for the column name within the environment of the <code>iris</code> <code>tibble</code>. This is where the <code>!!</code> (bang-bang) comes in. It says, ‘look for the value’ within the <code>tibble</code>.</p>
+</div>
+<div id="using-syms-in-a-shiny-app" class="section level2">
+<h2>Using <code>syms()</code> in a Shiny App</h2>
+<p>What if wanted to pass in <em>multiple</em> variables from a select box? We’ll need to wrap our input with <code>syms()</code>, which takes a list.</p>
+<p>Let’s do a slightly different version where we’re visualizing a box plot and we want to select multiple columns to display in our dataset from a <code>selectInput</code> where we’ve specified the <code>multiple=TRUE</code> argument.</p>
+<p>Our setup is similar, but different. Because we have multiple values, we have to use <code>syms()</code> to wrap the input from <code>input$numeric_vars</code>. Then we can evaluate it with <code>!!!</code> (the triple bang).</p>
+<pre class="r"><code>  selected_data &lt;- reactive({
+    ## input$numeric_var is a character vector, so we cast it to symbol
+    var_list &lt;- syms(input$numeric_vars)
+
+    ## Now we evaluate it with !!!
+    out_col &lt;- iris %&gt;% select(!!!var_list)
+  })</code></pre>
+<p>Try this app out. The <a href="https://gist.github.com/laderast/952120ac46d1f27c2d2dba5bd1ab5d10">Code is here</a>.</p>
+<pre class="r"><code>runGist(&quot;https://gist.github.com/laderast/952120ac46d1f27c2d2dba5bd1ab5d10&quot;, display.mode=&quot;showcase&quot;)</code></pre>
+</div>
