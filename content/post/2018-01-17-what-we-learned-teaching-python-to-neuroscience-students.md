@@ -66,7 +66,7 @@ This was a collaboration between the Neuroscience Graduate Program (NGP) and the
 
 The NGP students involved in designing and testing the material were 
 
-+   Daniela Sadieri 
++   Daniela Saderi 
 +   Lucille Moore 
 +   Charles Heller 
 +   Zack Schwartz

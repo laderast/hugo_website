@@ -10,6 +10,11 @@ header:
   image: '' 
 ---
 
+>> Note: I have come to believe that this post is way too harsh and unwelcoming to
+>> people interested in data science. I will post an update to this, and a FAQ
+>> for those who want informational interviews. But in the spirit of showing my 
+>> mistakes, I'll leave this up here.
+
 I have had many people who have asked me for informational interviews. They tell me that they are interested in Data Science and want to hear about what I do on a day to day basis. To be honest, I've begun to dread these kinds of interviews. 
 
 Inevitably, I spend a *lot* of energy explaining what I do to someone who rarely follows up. Consequently, I don't find these interviews rewarding at all. So I've written this post so that I have a better time doing these kinds of interviews. 

@@ -12,7 +12,7 @@ header:
 
 I just gave a workshop teaching the basics of [Shiny](https://shiny.rstudio.com) (the interactive web visualization framework) for a group of PDX R users. We had 10 people attend, and most of the attendees managed to get through the material and had lots of good questions. I really enjoyed talking with everyone and I hope everyone learned something. We're planning to give the workshop again to the larger PDX R user community, and some of the attendees last night have volunteered to be TAs. 
 
-The workshop materials consist of a [GitHub repo](https://github.com/laderast/shiny_workshop_pdxrlang) and a [Markdown document](https://laderast.github.io/shiny_workshop_pdxrlang/) that can be done either in person or independently. The materials are freely available under an Apache 2.0 License. 
+The workshop materials consist of a [GitHub repo](https://github.com/laderast/gradual_shiny) and a [Markdown document](https://laderast.github.io/gradual_shiny/) that can be done either in person or independently. The materials are freely available under an Apache 2.0 License. 
 
 In the workshop, we build a flexible `csv` (comma separated value) explorer that can load in `csv` data files with adaptive controls and tooltips.  
 
@@ -24,4 +24,4 @@ In terms of packages, the workshop uses the `tidyverse` (mostly `dplyr` and `ggp
 4. Tooltips (the hard way/the plotly way)
 5. The final product
 
-I'd love for more people to take a look at the workshop and would [love any suggestions](https://github.com/laderast/shiny_workshop_pdxrlang/issues/2) for making it better!
+I'd love for more people to take a look at the workshop and would [love any suggestions](https://github.com/laderast/gradual_shiny/issues/2) for making it better!
