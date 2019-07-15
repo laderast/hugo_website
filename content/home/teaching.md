@@ -56,12 +56,12 @@ I teach in the summer hybrid [*BMI569/669 Data Analytics*](http://www.ohsu.edu/x
 
 I am also a co-instructor for [*BMI551/651 Bioinformatics and Computational Biology II: Statistical Methods*](http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/current-students/student-resources/upload/BMI-551-Syllabus-WI16.pdf), providing drop-in sessions for R programming and general tutoring.
 
-I am also course co-director for  [HSMP/PHE410 Introduction to Health Informatics](https://laderast.github.io/HSMP410/) at Portland State University. Spring Quarter, 2018.
+I am also course co-director for  [HSMP410/PHE427 Introduction to Health Informatics](https://laderast.github.io/PHE427/) at Portland State University. Spring Quarter, 2018.
 
 ## Other Teaching Interests
 
-+ [BioData Club](http://biodata-club.github.io) - A student and postdoc driven discussion group at OHSU that focuses on practical skills (documentation, software engineering and visualization) necessary for success in data science and bioinformatics.
-+ I participate in the [PDX R User Group](https://www.meetup.com/portland-r-user-group/) and I was one of the organizers of the first [Cascadia R conference](https://cascadiarconf.com)
++ [BioData Club](http://biodata-club.github.io) - I am a co-founder and faculty co-advisor (along with Robin Champieux) for a student and postdoc driven discussion group at OHSU that focuses on practical skills (documentation, software engineering and visualization) necessary for success in data science and bioinformatics.
++ I am now a co-organizer in the [PDX R User Group](https://www.meetup.com/portland-r-user-group/) and I was one of the organizers of the first [Cascadia R conference](https://cascadiarconf.com).
 + I have also started to contribute lesson material to [Software Carpentry](https://software-carpentry.org).
 
 ## Teaching Materials

@@ -6,7 +6,7 @@ date = "2017-06-22"
 title = "R Bootcamp"
 
 # Project summary to display on homepage.
-summary = "In this course, we cover the basics of visualization, data munging, and basic statistics using the [tidyverse in R](http://tidyverse.org). It is freely available to everyone, but registration is required. Written with Jessica Minnier and Chester Ismay."
+summary = "Status: currently on hiatus from DataCamp due to current issues with DataCamp executives. In this course, we cover the basics of visualization, data munging, and basic statistics using the [tidyverse in R](http://tidyverse.org). It is freely available to everyone, but registration is required. Written with Jessica Minnier and Chester Ismay."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = ""
@@ -16,7 +16,7 @@ image_preview = ""
 tags = ["R", "tidyverse"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://www.datacamp.com/courses/rbootcamp"
+#external_link = "https://www.datacamp.com/courses/rbootcamp"
 
 # Does the project detail page use math formatting?
 math = false

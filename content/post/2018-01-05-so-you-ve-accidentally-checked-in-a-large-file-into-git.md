@@ -53,16 +53,17 @@ git clone --mirror local_repo
 bfg -b 100M local_repo.git
 ```
 
-Then comes some git commands that no one has bothered to explain to me.
+Then comes some git commands that no one has bothered to explain to me (UPDATE: I forgot to add changing directories into `local_repo.git` - sorry about that!).
 
 ```
+cd local_repo.git
 git reflog expire --expire=now --all && git gc --prune=now --aggressive
 git push
 ```
 
 Uh oh, I get a `remote: error: refusing to update checked out branch: refs/heads/master` error! More ugh. 
 
-Here's the trick. Since you cloned a *local* repo, you need to set the origin of your current repo (`local_repo.git`) to the GitHub remote. First we remove the current `origin`, and then add back our remote.
+Here's the trick. Since you cloned a *local* repo, you need to set the origin of your current repo (`local_repo.git`) to the GitHub remote. Still in our `local_repo.git` directory, first we remove the current `origin`, and then add back our remote.
 
 ```
 git remote rm origin

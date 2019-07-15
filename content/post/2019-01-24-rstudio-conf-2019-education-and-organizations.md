@@ -22,15 +22,17 @@ UPDATE: I'm adding links to the videos as subheadings that you can click on. I w
 
 There was much sharing of educational resources. I'll talk about a few.
 
-Carl Howe (Director of Education for RStudio) presented a number of resources that RStudio is providing for educational purposes. [Their goal is to train the next million R users](https://github.com/rstudio/learning-r-survey/blob/master/slides/Next-Million-R-Users.pdf). Here are some of the RStudio based educational resources that might be useful for everyone.
-
 ### [Carl Howe's Talk: The Next Million R Users](https://resources.rstudio.com/rstudio-conf-2019/the-next-million-r-users)
 
-1. *RStudio Cloud is now available free for people who teach courses*, [who can send them a course syllabus to gain access](https://www.rstudio.com/pricing/academic-pricing/). RStudio Cloud includes resources to make coursework publically or privately available, allows instructors to install default packages, and gives students an immediate way to start playing with R/RStudio. We are definitely going to use this in teaching our [BMI 569/669 Data Analytics](http://laderast.github.io/AnalyticsCourse) course. 
+### [Mel Gregory: RStudio for Education](https://resources.rstudio.com/rstudio-conf-2019/rstudio-cloud-for-education)
+
+Carl Howe (Director of Education for RStudio) presented a number of resources that RStudio is providing for educational purposes. [Their goal is to train the next million R users](https://github.com/rstudio/learning-r-survey/blob/master/slides/Next-Million-R-Users.pdf). Here are some of the RStudio based educational resources that might be useful for everyone.
+
+1. *RStudio Cloud is now available free for people who teach courses*, [who can send them a course syllabus to gain access](https://www.rstudio.com/pricing/academic-pricing/). RStudio Cloud includes resources to make coursework publically or privately available, allows instructors to install default packages, and gives students an immediate way to start playing with R/RStudio. We are definitely going to use this in teaching our [BMI 569/669 Data Analytics](http://laderast.github.io/AnalyticsCourse) course. Mel Gregory's talk was about the nuts and bolts of using RStudio Cloud in a classroom situation. Highly recommended to get familiar with the basics.
 
 2. Mine Çetinkaya-Rundel also has a [Data Science In a Box](http://datasciencebox.org) course available that can be forked and used by anyone. There is a great discussion of how to use the course and the [tech stack (RStudio Cloud, GitHub, and Slack)](https://datasciencebox.org/hello/tech-stack/) needed to make the course runnable. 
 
-3. There are also a number of LearnR Tutorials built into RStudio Cloud called [RStudio Primers](https://github.com/rstudio-education/primers) that cover a lot of basic RStudio operations.
+3. There are also a number of LearnR Tutorials built into RStudio Cloud called [RStudio Primers](https://github.com/rstudio-education/primers) that cover a lot of basic RStudio operations for the self-directed learners.
 
 Jessica Minnier and I [presented at the poster session](http://bit.ly/equal_viz) about our LearnR tutorials, [DSIExplore](http://github.com/laderast/DSIExplore) and [dataLiteracyTutorial](http://github.com/laderast/dataLiteracyTutorial) and our [`burro`](http://laderast.github.io/burro) package, which lets [users explore a new dataset with a simplified Shiny App](http://tladeras.shinyapps.io/nhanes_explore). There's even a function that lets you build a shiny app from a dataset that you can publish to a Shiny server such as `shinyapps.io ` or RStudio Connect for sharing and having a [data scavenger hunt](https://laderast.github.io/burro/articles/data_scavenger_hunt.html) together. Or as Angela Bassa calls it, an EDA Party. Whoo!
 
@@ -74,7 +76,7 @@ A lot more work needs to be done to make data science accessible at this level. 
 
 ### [Tonya Filz: The Resilient R Champion](https://resources.rstudio.com/rstudio-conf-2019/the-resilient-r-champion)
 
-Organizational considerations were also a really interesting part of RStudio Conf for me. Joe Cheng's keynote on [Shiny in Production](https://speakerdeck.com/jcheng5/shiny-in-production) spent some time talking about overcoming resistance to Shiny in your organization, including talking with Data Engineers and IT Security. His point was that oftentimes, resistance comes from the feelings of territorialism and how to overcome them. Tonya Filz also gave a talk about being a Resilient R Champion at your organization, stressing these issues and giving us case studies/examples to show leaders at your organization. (These slides weren't posted yet, I will update this post when they are.)
+Organizational considerations were also a really interesting part of RStudio Conf for me. Joe Cheng's keynote on [Shiny in Production](https://speakerdeck.com/jcheng5/shiny-in-production) spent some time talking about overcoming resistance to Shiny in your organization, including talking with Data Engineers and IT Security. His point was that oftentimes, resistance comes from the feelings of territorialism and how to overcome them. Tonya Filz also gave a talk about being a Resilient R Champion at your organization, stressing these issues and giving us case studies/examples to show leaders at your organization. 
 
 ### [Hilary Parker: Cultivating creativity in Data work](https://resources.rstudio.com/rstudio-conf-2019/cultivating-creativity-in-data-work)
 
