@@ -1,6 +1,6 @@
 ---
 title: "Ted Laderas, PhD"
-output: word_document
+output: html_document
 toc: true
 --- 
 
