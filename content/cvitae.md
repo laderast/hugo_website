@@ -1,7 +1,9 @@
 ---
 title: "Ted Laderas, PhD"
-output: html_document
-toc: true
+output:
+  word_document: default
+  html_document: default
+toc: yes
 --- 
 
 *Assistant Professor*, 

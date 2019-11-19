@@ -16,7 +16,7 @@ image_preview = "apps/data_literacy.png"
 tags = ["shiny", "teaching"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://tladeras.shinyapps.io/dataLiteracy/"
+external_link = "https://tladeras.shinyapps.io/dataLiteracyTutorial/"
 
 # Does the project detail page use math formatting?
 math = false
