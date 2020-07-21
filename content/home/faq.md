@@ -7,7 +7,7 @@ title: Frequently Asked Questions
 In order, they are:
 
 1. My mental and physical health
-2. My students
+2. My students and their mental health
 3. Open Science and creating a positive working environment for myself and others
 4. Making and promoting new educational resources
 5. Enabling better research practices
@@ -42,3 +42,8 @@ You get one of these a year. I'll print you a coupon. You cannot get more. I val
 
 Please do not try to send me an appointment for the current time and expect to talk. I'm not going to respond. I feel this is disrespectful, and I don't have the patience or energy to do so. 
 
+## Why didn't you for volunteer X service activity when I sent you a mass email?
+
+*I'm not going to do any more academic service activities unless I'm personally asked by someone, not from a group email.* I'm tired of doing work that takes away from teaching that I'm literally not paid for. If you value my time and my skills, you will ask directly.
+
+A group email that asks for volunteers just adds to the general stress level of everyone. I've been stressed out and burned out because of all of these group emails. Carefully pick who you ask, don't email everyone every time. And if you can't do ask people personally, maybe the service activity isn't worth doing, because the message you are sending out is that *you are not valuing the time of everyone you ask*.

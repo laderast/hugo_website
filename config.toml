@@ -290,7 +290,7 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
     name = "CV"
-    url = "/cvitae/"
+    url = "https://laderast.github.io/cv/"
     weight = 7
 
 
