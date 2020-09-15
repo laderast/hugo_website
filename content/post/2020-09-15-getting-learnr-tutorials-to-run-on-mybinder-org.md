@@ -29,7 +29,7 @@ Can we get both setups to work at the same time? Yes, we can.
 
 ## Why would we want to run learnr tutorials off mybinder.org?
 
-The short answer is making your material accessible to as many people as possible. `learnr` tutorials can be run from a phone or tablit, and running your tutorial for a lot of people doesn't cost you any bandwidth or usage costs, as you're using the same infrastructure that mybinder.org provides.
+The short answer is making your material accessible to as many people as possible. `learnr` tutorials can be run from a phone or tablet, and running your tutorial for a lot of people doesn't cost you any bandwidth or usage costs, as you're using the same infrastructure that mybinder.org provides.
 
 ## Quick Review of `learnr` package structure
 
@@ -124,7 +124,7 @@ urlpath=shiny/learning_tidyselect/
 
 The `urlpath` is a signal to mybinder that it will need to run shiny, and you'll put the name of your tutorial folder instead of `learning_tidyselect`. Note the trailing slash after `learning_tidyselect`.
 
-So, my final URL for the `learning_tidyselect` tutorial is this:
+So, my final URL for the `learning_tidyselect` tutorial is this (click it and try it out):
 
 https://mybinder.org/v2/gh/laderast/tidyowl/master?urlpath=shiny/learning_tidyselect/
 
