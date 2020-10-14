@@ -53,7 +53,7 @@ We can fix this by adding a file called `postBuild` that gives instructions to r
 
 In short, you'll need 3 files to make your `learnr` tutorial mybinder.org ready: a `runtime.txt`, a `install.R `, and a `postBuild` file in order to make your `learnr` package compatible with mybinder.org. Let's go through the steps:
 
-1. Specify a `runtime.txt` file in your root folder. You'll need a file called `runtime.txt` that contains a single line:
+Step 1. Specify a `runtime.txt` file in your root folder. You'll need a file called `runtime.txt` that contains a single line:
 
 ```
 r-3.6-2020-08-01
@@ -65,7 +65,7 @@ This gives mybinder.org the signal that the Docker image needs to have R install
 
 *Another Note: I tried to get this to work with a `Dockerfile` using the `rocker/binder` images, but I couldn't get this image to work. If anyone has gotten this working, I'd appreciate you sharing how you did it.*
 
-2. Specify package dependencies using `install.R` in your root folder - in this file, you'll need to specify all the packages your tutorial is dependent on using `install.packages()` commands. Here's the contents of my `install.R` file:
+Step 2. Specify package dependencies using `install.R` in your root folder - in this file, you'll need to specify all the packages your tutorial is dependent on using `install.packages()` commands. Here's the contents of my `install.R` file:
 
 ```
 install.packages("learnr")
@@ -73,7 +73,9 @@ install.packages("here")
 install.packages("tidyverse")
 ```
 
-3. Specify moving the tutorials in `inst/tutorials/` to the repository root folder using the `postBuild` folder. These commands are run after the container is built and will make the tutorials accessible via Binder.
+Note: getting the dependencies right in package building can be major headaches to getting your binder container to work. You may have to specify some [system dependencies](https://mybinder.readthedocs.io/en/latest/config_files.html) in your `apt.txt` file for certain packages. This information is available here: https://github.com/rstudio/r-system-requirements
+
+Step 3. Specify moving the tutorials in `inst/tutorials/` to the repository root folder using the `postBuild` folder. These commands are run after the container is built and will make the tutorials accessible via Binder.
 
 For example, for the `tidyowl` package, I have these `mv` commands in my `postBuild`:
 
@@ -86,7 +88,9 @@ You'll need a `mv` line for each tutorial that your package contains.
 
 ### Note: Using `holepunch`
 
-I believe you can also use `holepunch` to make setup a little easier. https://github.com/karthik/holepunch I haven't tried it yet.
+I believe you can also use `holepunch` to make setup a little easier. https://github.com/karthik/holepunch 
+
+I haven't tried it yet, but will update this when I do.
 
 ## Build the Docker Image for your tutorial
 
@@ -94,7 +98,7 @@ Okay, almost there! Now we're going to go to `mybinder.org` to build your Docker
 
 When you're ready, go to https://mybinder.org and put in the public location of your repository. Then click the "Launch" button.
 
-Now your container will build. Note that this will take a little while (10+ minutes), especially if you need to install something like `tidyverse`.
+Now your container will build. Note that this will take a little while (10+ minutes), especially if you need to install something like `tidyverse`. Note that this can be one of the hardest steps to get going, especially if you need packages such as `sf` (see above for a link to system dependencies).
 
 <img src="/img/2020-learnr/binder_repo.jpg">
 
@@ -119,7 +123,7 @@ Each tutorial in your package will need its own URL to run.
 You'll add the following to your mybinder.org link:
 
 ```
-urlpath=shiny/learning_tidyselect/
+?urlpath=shiny/learning_tidyselect/
 ```
 
 The `urlpath` is a signal to mybinder that it will need to run shiny, and you'll put the name of your tutorial folder instead of `learning_tidyselect`. Note the trailing slash after `learning_tidyselect`.
